@@ -2662,7 +2662,7 @@ fc++;
 }
 NCP(fc);
 if((staticMode||GV("familyid"))&&Efo&&Efa[Efo]){
-var fb=FDN(Efa[Efo],false,1,false,true,false);
+var fb=FDN(Efa[Efo],false,1,false,false,1);
 ST("lfamilyinfo",_t("Founded by $",fb));
 if(!staticMode){
 SS("historybutton",true);
